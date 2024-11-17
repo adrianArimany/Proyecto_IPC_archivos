@@ -27,7 +27,9 @@ Note that the values 0 implies No, and 1 implies Yes (Si).
 
 * Fisher_Exact_Test_Result.R  contains the statistics that test whether Satisfaccion and Conomiciento have a indepedent relationship.
 
-*
+* Exact_Multinomial_Test.R contains the statistics that test whether the different configurations follow a uniform distribution.
+
+* Z_Test_satisfaction.R containst the statistics provides a confidence interval of 95% for the satisfaction.
 ---
 # Installing R and RStudio
 
