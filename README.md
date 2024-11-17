@@ -1,104 +1,107 @@
 # Proyecto_IPC_archivos
-This is the repository where you can find the research done regarding the indoor-light configuration in the Centro de Innovación e Investigación (CIT) from la Universidad del Valle de Guatemala (UVG). 
+Este es el repositorio donde puedes encontrar la investigación realizada sobre la configuración de luz interior en el Centro de Innovación e Investigación (CIT) de la Universidad del Valle de Guatemala (UVG).
 
-## What kind of files would I find here?
-We offer the complete research that our team conducted, there is a Spanish version and an English Version.
+## ¿Qué tipo de archivos encontraré aquí?
+Ofrecemos la investigación completa que realizó nuestro equipo.
 
-Furthermore, we also offer the collected data that we used to do the test statistics. You may use this data as our Copy-right License suggests.
+Además, también ofrecemos los datos recopilados que utilizamos para hacer las estadísticas de prueba. Puedes usar estos datos como sugiere nuestra Licencia de Derechos de Autor.
 
-Lastly, we provide an R-code (version: 3.6.3)   with the statistical tests that we had implemented, you may use them to re-test them if you feel like the results are ambiguous.
+Por último, proporcionamos un código R (versión: 3.6.3) con las pruebas estadísticas que implementamos, puedes usarlas para volver a probarlas si sientes que los resultados son ambiguos.
 
-## What would you not find here?
-The only thing that we are not providing you with is the complete data set that was gathered from the questionnaire. This is because the full data set has sensitive information which we can’t freely share with anyone (unless you have authorization from UVG).
+## ¿Qué no encontrarás aquí?
+Lo único que no te proporcionamos es el conjunto completo de datos que se recopiló del cuestionario. Esto se debe a que el conjunto completo de datos contiene información sensible que no podemos compartir libremente con nadie (a menos que tengas autorización de la UVG).
 
-## Authors
+## Autores
 * Adrian Arimany Zamora - 211063
 * Mario Roberto Martínez Santos - 24318
 * René David González Herrera - 23365
 
-## Special Thanks
+## Agradecimientos Especiales
 * Evelyn Claudéth Orantes Rosales
 
 ---
-## Information about the files:
-* Results_from_investigation.xlsx contains the results from the questionnaire.
+## Información sobre los archivos:
+* Results_from_investigation.xlsx contiene los resultados del cuestionario.
 
-Note that the values 0 implies No, and 1 implies Yes (Si).
+Nota que los valores 0 implican No, y 1 implica Sí.
 
-* Fisher_Exact_Test_Result.R  contains the statistics that test whether Satisfaccion and Conomiciento have a indepedent relationship.
+* Fisher_Exact_Test_Result.R contiene las estadísticas que prueban si Satisfacción y Conocimiento tienen una relación independiente.
 
-* Exact_Multinomial_Test.R contains the statistics that test whether the different configurations follow a uniform distribution.
+* Exact_Multinomial_Test.R contiene las estadísticas que prueban si las diferentes configuraciones siguen una distribución uniforme.
 
-* Z_Test_satisfaction.R containst the statistics provides a confidence interval of 95% for the satisfaction.
+* Z_Test_satisfaction.R contiene las estadísticas que proporcionan un intervalo de confianza del 95% para la satisfacción.
 ---
-# Installing R and RStudio
+# Instalación de R y RStudio
 
-This guide will help you install **R** and **RStudio**, which are essential tools for statistical computing and data visualization.
+Esta guía te ayudará a instalar **R** y **RStudio**, que son herramientas esenciales para el cálculo estadístico y la visualización de datos.
 
 ---
 
-## Step 1: Install R
+## Paso 1: Instalar R
 
 ### Windows
-1. Go to the [CRAN R Project website](https://cran.r-project.org/).
-2. Click on **"Download R for Windows"**.
-3. Select **"base"** and then click **"Download R x.x.x for Windows"**.
-4. Run the downloaded `.exe` file and follow the installation instructions.
+1. Ve al [sitio web del proyecto R de CRAN](https://cran.r-project.org/).
+2. Haz clic en **"Descargar R para Windows"**.
+3. Selecciona **"base"** y luego haz clic en **"Descargar R x.x.x para Windows"**.
+4. Ejecuta el archivo .exe descargado y sigue las instrucciones de instalación.
 
 ### macOS
-1. Go to the [CRAN R Project website](https://cran.r-project.org/).
-2. Click on **"Download R for macOS"**.
-3. Choose the appropriate version for your macOS version.
-4. Download the `.pkg` file and follow the installation instructions.
+1. Ve al [sitio web del proyecto R de CRAN](https://cran.r-project.org/).
+2. Haz clic en **"Descargar R para macOS"**.
+3. Elige la versión apropiada para tu versión de macOS.
+4. Descarga el archivo .pkg y sigue las instrucciones de instalación.
 
 ### Linux
-1. Follow the instructions provided on the [CRAN R Linux page](https://cran.r-project.org/bin/linux/).
-2. Use your package manager to install R. For example:
+1. Sigue las instrucciones proporcionadas en la [página de Linux de CRAN R](https://cran.r-project.org/bin/linux/).
+2. Usa tu gestor de paquetes para instalar R. Por ejemplo:
    - **Debian/Ubuntu**:
-     ```bash
+     
+```bash
      sudo apt update
      sudo apt install r-base
-     ```
+```
    - **Fedora/RedHat**:
-     ```bash
+     
+```bash
      sudo dnf install R
-     ```
+```
 
 ---
 
-## Step 2: Install RStudio
+## Paso 2: Instalar RStudio
 
-### Download RStudio
-1. Go to the [RStudio website](https://posit.co/download/rstudio-desktop/).
-2. Choose the **Free - RStudio Desktop** version.
-3. Download the installer for your operating system:
-   - Windows: `.exe`
-   - macOS: `.dmg`
-   - Linux: `.deb` or `.rpm`
+### Descargar RStudio
+1. Ve al [sitio web de RStudio](https://posit.co/download/rstudio-desktop/).
+2. Elige la versión **Gratis - RStudio Desktop**.
+3. Descarga el instalador para tu sistema operativo:
+   - Windows: .exe
+   - macOS: .dmg
+   - Linux: .deb o .rpm
 
-### Install RStudio
-- **Windows/macOS**: Run the downloaded installer and follow the on-screen instructions.
-- **Linux**: Use the appropriate package manager to install the downloaded file:
+### Instalar RStudio
+- **Windows/macOS**: Ejecuta el instalador descargado y sigue las instrucciones en pantalla.
+- **Linux**: Usa el gestor de paquetes apropiado para instalar el archivo descargado:
   - Debian/Ubuntu:
-    ```bash
+    
+```bash
     sudo dpkg -i rstudio-x.xx.x-amd64.deb
-    ```
+```
   - Fedora/RedHat:
-    ```bash
+    
+```bash
     sudo rpm -ivh rstudio-x.xx.x.rpm
-    ```
+```
 
 ---
 
-## Step 3: Verify Installation
+## Paso 3: Verificar la Instalación
 
-1. Open RStudio.
-2. Check if R is properly linked:
-   - Go to **Tools > Global Options > General** and ensure the R version is displayed.
-3. Run the following command in the RStudio Console to confirm R is working:
-   ```R
+1. Abre RStudio.
+2. Comprueba si R está correctamente vinculado:
+   - Ve a **Herramientas > Opciones globales > General** y asegúrate de que se muestre la versión de R.
+3. Ejecuta el siguiente comando en la consola de RStudio para confirmar que R está funcionando:
+   
+R
    version
-
+   
 ---
-
-
