@@ -20,6 +20,11 @@ The only thing that we are not providing you with is the complete data set that 
 * Evelyn Claudéth Orantes Rosales
 
 ---
+## Information about the files:
+* Results_from_investigation.xlsx contains the results from the questionnaire.
+Note that the values 0 implies No, and 1 implies Yes (Si).
+*
+---
 # Installing R and RStudio
 
 This guide will help you install **R** and **RStudio**, which are essential tools for statistical computing and data visualization.
