@@ -6,7 +6,7 @@ We offer the complete research that our team conducted, there is a Spanish versi
 
 Furthermore, we also offer the collected data that we used to do the test statistics. You may use this data as our Copy-right License suggests.
 
-Lastly, we provide an R-code with the statistical tests that we had implemented, you may use them to re-test them if you feel like the results are ambiguous.
+Lastly, we provide an R-code (version: 3.6.3)   with the statistical tests that we had implemented, you may use them to re-test them if you feel like the results are ambiguous.
 
 ## What would you not find here?
 The only thing that we are not providing you with is the complete data set that was gathered from the questionnaire. This is because the full data set has sensitive information which we can’t freely share with anyone (unless you have authorization from UVG).
@@ -19,7 +19,7 @@ The only thing that we are not providing you with is the complete data set that 
 ## Special Thanks
 * Evelyn Claudéth Orantes Rosales
 
-+==========================================================================================================================================================================================================================================+
+---
 # Installing R and RStudio
 
 This guide will help you install **R** and **RStudio**, which are essential tools for statistical computing and data visualization.
@@ -88,4 +88,6 @@ This guide will help you install **R** and **RStudio**, which are essential tool
    ```R
    version
 
-+========================================================================================================================================================================+
+---
+
+
