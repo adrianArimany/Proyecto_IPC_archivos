@@ -22,7 +22,11 @@ The only thing that we are not providing you with is the complete data set that 
 ---
 ## Information about the files:
 * Results_from_investigation.xlsx contains the results from the questionnaire.
+
 Note that the values 0 implies No, and 1 implies Yes (Si).
+
+* Fisher_Exact_Test_Result.R  contains the statistics that test whether Satisfaccion and Conomiciento have a indepedent relationship.
+
 *
 ---
 # Installing R and RStudio
