@@ -6,7 +6,7 @@ Ofrecemos la investigación completa que realizó nuestro equipo.
 
 Además, también ofrecemos los datos recopilados que utilizamos para hacer las estadísticas de prueba. Puedes usar estos datos como sugiere nuestra Licencia de Derechos de Autor.
 
-Por último, proporcionamos un código R (versión: 3.6.3) con las pruebas estadísticas que implementamos, puedes usarlas para volver a probarlas si sientes que los resultados son ambiguos.
+Por último, proporcionamos nuestro código R (versión: 3.6.3) con las pruebas estadísticas que implementamos, puedes usarlas para volver a probarlas si sientes que los resultados son ambiguos.
 
 ## ¿Qué no encontrarás aquí?
 Lo único que no te proporcionamos es el conjunto completo de datos que se recopiló del cuestionario. Esto se debe a que el conjunto completo de datos contiene información sensible que no podemos compartir libremente con nadie (a menos que tengas autorización de la UVG).
