@@ -33,7 +33,7 @@ Nota que los valores 0 implican No, y 1 implica Sí.
 ---
 # Instalación de R y RStudio
 
-Esta guía te ayudará a instalar **R** y **RStudio**, que son herramientas esenciales para el cálculo estadístico y la visualización de datos.
+Esta guía te ayudará a instalar **R** y **RStudio**, que son herramientas para evaluar las estadisticas que se presentan en este directorio.
 
 ---
 
